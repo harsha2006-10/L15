@@ -1,1 +1,1 @@
-print("hi iam feom amity universtiy@#1")
+print("hi iam from amity universtiy@#1")
