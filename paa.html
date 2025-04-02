@@ -4,20 +4,97 @@
         <title>
             Audio and Video Elements in HTML
         </title>
-        <link rel="stylesheet" href="audio.css">
+	<style>
+	.bth1{
+    color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-shadow: 0cqmin;
+}
+.bth{
+    color: color-mix(in xyz-d50, color percentage, color percentage);
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wall{
+    color: gold;
+    text-indent: 0vmax;
+    font-display: swap;
+    font-size: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+}
+#class
+{
+    width: 100%;
+    outline: none;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+#vid{
+    width: 100%;
+    max-width: 600px;
+    border: 5px solid #0beca1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+}
+#vid::-webkit-media-controls {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #333;
+    }
+
+#vid::-webkit-media-controls-play-button {
+    background-color: #007BFF;
+    border-radius: 50%;
+    color: white; }
+
+#vid::-webkit-media-controls-timeline {
+    background-color: #ccc;
+    height: 5px;
+    border-radius: 5px;
+}
+#vid::-webkit-media-controls-volume-slider {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+
+#vid::-webkit-media-controls-fullscreen-button {
+    background-color: #007BFF;
+    border-radius: 5px;
+    color: white;
+}
+	</style>
+
     </head>
  <body>
- <h1 class="bth1">The audio element</h1>
+ <h1>The audio element</h1>
   <a href="https://ide.codingblocks.com/" veast googly></a>
- <p id="wall">Click on the play button to play a sound:</p>
+ <p>Click on the play button to play a sound:</p>
  <audio controls>
-  <source src="C:\Users\91829\Pictures\MIUI\ShareMe\[iSongs.info] 02 - Thirboki Jeevana.mp3" type="audio/ogg" id="class">
+  <source src="C:\Users\91829\Pictures\MIUI\ShareMe\[iSongs.info] 02 - Thirboki Jeevana.mp3" type="audio/ogg" >
   Your browser does not support the audio element.
  </audio>
- <img src="C:\Users\91829\Pictures\Screenshots\Screenshot (15).png"alt="error" height="500" width="500" id="img">
- <h1 class="bth">Watch this Video</h1>
+ <img src="C:\Users\91829\Pictures\Screenshots\Screenshot (15).png"alt="error" height="500" width="500" >
+ <h1>Watch this Video</h1>
  <video width="400" controls>
- <source src="C:\Users\91829\Pictures\Camera Roll\WIN_20241126_11_23_39_Pro.mp4" type="video/mp4" id="vid">
+ <source src="C:\Users\91829\Pictures\Camera Roll\WIN_20241126_11_23_39_Pro.mp4" type="video/mp4">
   Your browser does not support the video tag.
  </video>
  </body>
